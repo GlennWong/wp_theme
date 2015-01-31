@@ -1,0 +1,116 @@
+/*
+Theme Name: Legstrong
+Theme URI: http://blog.zanzhu.net
+Author: Legstrong
+Author URI: http://zanzhu.net
+Description: Descriptions
+Version: 0.0.1
+License: MIT
+License URI: http://opensource.org/licenses/MIT
+Tags:  one-column,two-columns,three-columns,four-columns,left-sidebar, right-sidebar, responsive-layout,full-width-template,theme-options
+*/
+.post-entry {
+	padding: 10px;
+	/*border: 1px solid #EEEEEE;*/
+}
+.post-title {
+	line-height: 28px;
+}
+.post-image {
+	float: left;
+	padding: 5px 20px 10px 0;
+}
+.post-content p {
+	text-indent:2em;
+}
+.post-comment {
+	padding: 5px 10px;
+}
+.post-siderbar li {
+	padding: 3px 0;
+}
+.post-bottom li {
+	padding: 3px 0;
+	width: 45%;
+}
+
+.list-group-item {
+	padding: 5px 0;
+	margin: 2px 0 0 -12px;
+}
+.reverce {
+	color: #FFFFFF;
+	background-color: #E70012;
+}
+.reverce a {
+	color: #FFFFFF;
+}
+.reverce a:hover,
+.reverce a:focus {
+	color: #DDDDDD;
+}
+.topbot {
+	padding: 5px 0;
+}
+.lefrig {
+	padding: 0 5px; 
+}
+.bottop {
+	margin: 5px 0;
+}
+.riglef {
+	margin: 0 5px;
+}
+
+.col-head {
+	width:100%;
+	height:34px;
+	margin-bottom: 10px;
+	background: #FFFFFF url(images/tbg.png) no-repeat left;
+	border-bottom:1.5px dashed #C5C5C5;
+}
+
+.col-body {
+	width:100%;
+	display: inline-block;
+}
+
+.col-title {
+	color:#FFFFFF;
+	font-size:20px;
+	font-weight:bold;
+	padding:0px 25px;
+	line-height: 33px;
+	width:200px;
+	display: inline-block;
+	float: left;
+}
+
+.col-more {
+	float:right;
+	line-height:33px;
+	font-size:11px;
+	font-weight:bold;
+	display: inline-block;
+}
+
+.half {
+	width: 49%;
+	float: left;
+}
+.third {
+	width: 33%;
+	float: left;
+	min-height:152px;
+}
+@media (max-width: 767px) {
+	.half {
+		width: 100%;
+		float: left;
+	}
+	.third {
+		width: 100%;
+		float: left;
+	}
+
+}
